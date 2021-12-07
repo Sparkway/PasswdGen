@@ -2,9 +2,12 @@ import string
 import random
 import time
 from colorama import Fore, Back, Style
+from art import *
 import tkinter
 
 def passwdgen():
+    
+    print(Fore.GREEN + text2art("PasswdGen", font="big") + Style.RESET_ALL)  
 
     letters = list(string.ascii_letters)
     special = list('&#!?%$=+@')
