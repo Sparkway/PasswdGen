@@ -1,4 +1,4 @@
-# PasswGen
+# PasswdGen
 PasswdGen is a simple password generator written in python that lets the user choose the number of characters and whether to use numbers or special characters.
 
 Sample example passwords PasswdGen may generate:
